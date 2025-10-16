@@ -10,15 +10,11 @@
  * governing permissions and limitations under the License.
  */
 
-/**
- * mobile-first CSS variables for the VASSurance theme
- */
 :root {
   /* colors */
-    color-scheme: dark;
 
   /* Primary Colors */
-  --swiss-red: #D52B1E; /* Primary CTAs, links, buttons */
+  --swiss-red: #9c4942; /* Primary CTAs, links, buttons */
 
   /* Accent Colors */
   --coral-tint: #FFE5E0; /* Error light, hover */
@@ -26,22 +22,21 @@
   /* Neutral Colors */
 
   --pure-white: #FFF; /* Text color */
-  --light-gray: #F4F4F4; /* Light backgrounds */
+  --light-gray: #9c4942; /* Light backgrounds */
   --mid-gray: #CCC; /* Borders, dividers, shadows */
-  --charcoal-gray: #0b0b0b; /* Headlines, strong body text on light backgrounds */
 
   /* Success/Info Colors */
   --forest-green: #2D7A4C; /* Confirmation, success messaging */
   --mint-green: #E5F7EC; /* Background for success */
   --link-color: var(--swiss-red);
   --link-hover-color: color-mix(in srgb, var(--swiss-red) 70%, transparent);
-  --background-color: #0b0b0b;
+  --background-color: var(--pure-white);
   --light-color: var(--light-gray);
   --dark-color: var(--mid-gray);
-  --text-color: var(--pure-white);
+  --text-color: #7F8083;
 
   /* fonts */
-  --body-font-family: 'Inter', sans-serif;
+  --body-font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
   --ff-pricefx-icons: 'pricefx-icons', sans-serif;
@@ -76,10 +71,11 @@
   --nav-width:1000px;
 
   /* nav background color */
-  --nav-bg-color: rgb(255 255 255 / 90%);
+  --nav-bg-color: var(--swiss-red);
 
   /* custom colors */
-  --accent-color: #F49372;
+  --accent-color: #db8b32;
+  --secondary-accent-color: #8e5799;
   --text-light-color: var(--light-gray);
   --darkest-color: #5C5249;
 
@@ -92,18 +88,6 @@
   /* Font Icons */
   --icon-plus: "\e917";
   --icon-minus: "\e915";
-}
-
-:root[data-theme="light"] {
-    color-scheme: light;
-
-    --background-color: #fff;
-    --text-color: #0b0b0b;
-    --link-color: var(--swiss-red);
-    --link-hover-color: color-mix(in srgb, var(--swiss-red) 70%, transparent);
-    --light-color: #f4f4f4;
-    --dark-color: #e6e6e6;
-    --nav-bg-color: rgba(237 237 237 / 90%);
 }
 
 /** Utility classes **/
@@ -141,7 +125,7 @@ body {
   font-family: var(--body-font-family);
   line-height: 1.6;
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-color: var(--pure-white);
   display: none;
 }
 
@@ -164,6 +148,7 @@ h6 {
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 0.5em;
+  color: var(--swiss-red);
   scroll-margin: calc(var(--nav-height) + 1em);
 }
 
