@@ -76,11 +76,12 @@
 
 .cards--carousel > .cards-carousel-wrap > ul > li {
     flex: 0 0 auto;
-    width: clamp(260px, 30vw, 340px);
+    width: clamp(200px, 30vw, 200px);
     scroll-snap-align: start;
     scroll-snap-stop: always;
     display: flex;
     flex-direction: column;
+
 }
 
 .cards--carousel .cards-nav {
@@ -150,6 +151,12 @@
 .icon-card > .icon-header {
     display: flex;
     align-items: center;
+}
+
+.cards--carousel .icon-card > .icon-header {
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 4px 5px 5px -5px var(--mid-gray);
 }
 
 .cards--default .icon-card > .icon-header {
