@@ -161,6 +161,7 @@
 
 .cards--default .icon-card > .icon-header {
     flex-direction: row-reverse;
+    box-shadow: 0px 5px 5px -5px var(--mid-gray);
 }
 
 .icon-card > .icon-header > picture {
