@@ -50,6 +50,7 @@ body > main > div.section.columns-container > div > div > div > div:nth-child(2)
     .columns > div > *:first-child {
         flex: 0 0 70%;
         max-width: 70%;
+        padding-right: 3rem;
     }
     .columns > div > *:last-child {
         flex: 0 0 30%;
