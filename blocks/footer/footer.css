@@ -17,6 +17,8 @@ footer .footer p {
 body > footer > div > div > div > div > ul > li{
     background-color: var(--accent-color);
     color: var(--pure-white);
+    width: 6rem;
+    text-align: center;
 }
 
 body > footer > div > div > div > div > ul {
