@@ -18,3 +18,10 @@ body > footer > div > div > div > div > ul > li{
     background-color: var(--accent-color);
     color: var(--pure-white);
 }
+
+body > footer > div > div > div > div > ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: var(--heading-font-size-xs);
+    font-weight: 500;
+}
