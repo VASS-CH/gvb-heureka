@@ -13,3 +13,8 @@ footer .footer {
 footer .footer p {
     margin: 0;
 }
+
+body > footer > div > div > div > div > ul > li{
+    background-color: var(--accent-color);
+    color: var(--pure-white);
+}
