@@ -2,11 +2,11 @@
 Training project for the Adobe Experience Manager Edge Delivery System. The project is a website for a fictional app called Aniless that should motivate people to consume less animal products. 
 
 ## Content source for authoring
-https://drive.google.com/drive/folders/1lBqWZVNJzSzWGJwSj54OnJJq3EKqPo0f?usp=drive_link
+https://drive.google.com/drive/folders/1VUc6n35NkeiuAj3Az6Hx5hnYO-ygGAQ9?usp=drive_link
 
 ## Environments
-- Preview: https://main--aem-eds-aniless-docbased--linuskohler-vass.hlx.page/
-- Live: https://main--aem-eds-aniless-docbased--linuskohler-vass.hlx.live/
+- Preview: https://main--gvb-heureka--vass-ch.aem.page/de/
+- Live: https://main--gvb-heureka--vass-ch.aem.live/de/
 
 ## Installation
 
